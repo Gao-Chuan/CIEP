@@ -9,7 +9,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
-venc/
 build/
 develop-eggs/
 dist/
@@ -100,3 +99,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# vscode
+.vscode
