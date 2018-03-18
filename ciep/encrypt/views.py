@@ -12,7 +12,8 @@ def home(request):
 def secretKey_home(request):
     boards = [
         {'name': 'AES', 'link': 'encrypt/secretkey/aes'},
-        {'name': 'DES', 'link': 'encrypt/secretkey/des'}
+        {'name': 'DES', 'link': 'encrypt/secretkey/des'},
+        {'name': 'RC4', 'link': 'encrypt/secretkey/rc4'},
     ]
     return render(request, 'encrypt/secretKey/home.html', {'boards': boards})
 

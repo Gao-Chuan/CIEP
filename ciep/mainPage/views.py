@@ -7,4 +7,4 @@ def home(request):
         {'name': '认证', 'link': '/authenticate'},
         {'name': 'padding & safe mode', 'link': '/pns'}
     ]
-    return render(request, 'home.html', {'boards': boards})
+    return render(request, 'index.html', {'boards': boards})
